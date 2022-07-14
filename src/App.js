@@ -1,6 +1,6 @@
 import "./styles.css";
 import React from "react";
-import Pokemon from "./Pokemon";
+import Pokemon from "./Pokemon/Pokemon";
 
 export default function App() {
   return (

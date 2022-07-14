@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
-import MyComponent from "./MyComo";
 import ShowPokemon from "./ShowPokemon";
-import Loading from "./Loading";
+import Loading from "../Comman/Loading";
 
 const Pokemon = () => {
   const [number, setNumber] = useState("-1");
@@ -60,7 +59,7 @@ const Pokemon = () => {
       {loading === false ? (
         names.length >= 0 ? (
           names.map((val, index) => {
-            return <ShowPokemon key={val + index} name={val.name}  />;
+            return <ShowPokemon key={val + index} name={val.name} />;
           })
         ) : (
           console.log("error")
