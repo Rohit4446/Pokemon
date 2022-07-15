@@ -7,7 +7,7 @@ const Menu = (props) => {
     <>
       <div className="menu_container">
         <div className="left">
-          <img src={image} alt={title} className="image" />
+          <img src="" alt={title} className="image" />
         </div>
         <div className="right">
           <div className="top">
