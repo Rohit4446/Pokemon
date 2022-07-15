@@ -1,4 +1,31 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  background-color: ivory;
+}
+.header {
+  text-decoration: none;
+  widows: 100vw;
+  height: 10vh;
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0px 0px 10px 0px;
+}
+
+.navlink {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.navlink:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
 }

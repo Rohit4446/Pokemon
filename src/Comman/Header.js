@@ -1,18 +1,22 @@
 import React from "raect";
 import { NavLink } from "react-router-dom";
-import { Navbar, Nav, Container } from "react-bootstrap";
 
 const Header = () => {
   return (
-    <Navbar bg="dark" variant="dark">
-      <Container>
-        <Nav className="me-auto">
-          <NavLink to="pokemon">Pokemon</NavLink>
-          <NavLink to="review">Reviews</NavLink>
-          <NavLink to="accordion">Accordion</NavLink>
-        </Nav>
-      </Container>
-    </Navbar>
+    <div className="header">
+      <NavLink className="navlink" to="pokemon">
+        Pokemon
+      </NavLink>
+      <NavLink className="navlink" to="review">
+        Reviews
+      </NavLink>
+      <NavLink className="navlink" to="accordion">
+        Accordion
+      </NavLink>
+      <NavLink className="navlink" to="menuapp">
+        Menu App
+      </NavLink>
+    </div>
   );
 };
 
